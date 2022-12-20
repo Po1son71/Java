@@ -12,16 +12,19 @@ public class Interest {
 
         if(resultByFive ==0 && resultByThree == 0){
             System.out.println("FizzBuzz");
+            int res1 = 100 + value;
+            System.out.println(res1);  
         }
         else if(resultByThree == 0){
             System.out.println("Fizz");
+            int res2 = 100 - value;
+            System.out.println(res2);  
         }
         else if(resultByFive == 0){
             System.out.println("Buzz");
         }
         else{
-            System.out.println(value);
-        }
-
+            System.out.println("The number is"+value);
+        }    
     }
 }
